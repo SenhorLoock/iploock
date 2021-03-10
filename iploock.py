@@ -1,7 +1,7 @@
 #!/usr/lib/python
 import requests
 import os
-import banner
+import Banner
 #banner
 def banner():
     os.system('clear')
@@ -40,7 +40,7 @@ try:
         print ("\033[1;32mEXIT...\033[m")
 except:
 #CASO OCORRA ERRO ESSA FUNÇAO SERA ATIVADA
-    banner.bannerErro()
+    Banner.bannerErro()
     print ("\033[7;31mIP INVALIDO OU IMTERRUPIÇOES\033[m")
     os.system('sleep 3.0')
     exit() 
