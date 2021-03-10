@@ -6,7 +6,7 @@ def banner():
     os.system('clear')
     print ("""\033[1;35m
               \033[4;32mIPLOOCK\033[m\033[1;35m
-\033[1;33m[GITHUB]:\033[4;32mhttps://github.com/SenhorLoock\033[1;35m
+\033[1;33m[GITHUB]:\033[4;32mhttps://github.com/SenhorLoock\033[m\033[1;35m
      `\|||/              
       (o o)      
 \033[1;31m___\033[1;35mooO\033[1;31m_\033[1;35m(\033[1;31m_\033[1;35m)\033[1;31m_\033[1;35mOoo\033[1;31m______________________
